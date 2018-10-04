@@ -8,7 +8,7 @@
  * Copyright (c) 2018 Pedro Mello
  * -------------------------------------------------------
  *
- *	dado 
+ *	dado raio e altura em centimetros de um cone, e o lado de um cubo tbm em centimetros, calcula o volume de ambos e verifica qual é maior.
  *
  *
  *
