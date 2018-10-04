@@ -27,9 +27,9 @@ int main(){
 
 	float v0, teta, x_max, y_max, aux;
 
-	printf("valor de v0 (km/h):\n"); // count << "valor de v0 (km/h):" << endl;
+	printf("valor de v0 (km/h):\n"); // cout << "valor de v0 (km/h):" << endl;
 	scanf("%f",&v0); // cin >> v0;
-	printf("valor de teta (graus):\n"); // count << "valor de teta (graus):" << endl;
+	printf("valor de teta (graus):\n"); // cout << "valor de teta (graus):" << endl;
 	scanf("%f",&teta); // cin >> teta;
 
 	v0 = v0/3.6; // Conversão para m/s

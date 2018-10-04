@@ -2,7 +2,7 @@
  *
  * -------------------------------------------------------
  * Project: SolucaoPratica05B
- 
+
  * Version: 0.1.0
  * Author:  Pedro Mello
  *
@@ -53,19 +53,19 @@ int main(){
 	// Loop infinito pois eu verifico a saida dentro da subrotina check();
 	while(true){
 
-		printf("valor do raio r (cm):\n"); // count << "valor do raio r (cm):" << endl;
+		printf("valor do raio r (cm):\n"); // cout << "valor do raio r (cm):" << endl;
 		scanf("%f",&r);
 		
 		check(&r); // chama a subrotina
 
-		printf("valor da altura h (cm):\n"); // count << "valor da altura h (cm):" << endl;
+		printf("valor da altura h (cm):\n"); // cout << "valor da altura h (cm):" << endl;
 		scanf("%f",&h); // cin >> h;
 
 		check(&h);
 
 		vA = pi*r*r*h;
 
-		printf("o volume do cilindro com altura '%f' e raio '%f' é: %f\n\n", h, r, vA); // count << "o volume do cilindro com altura '" << h << "' e raio '" << r << "' é:" << vA << endl << endl;
+		printf("o volume do cilindro com altura '%f' e raio '%f' é: %f\n\n", h, r, vA); // cout << "o volume do cilindro com altura '" << h << "' e raio '" << r << "' é:" << vA << endl << endl;
 		
 		printf("\n###############################\n");
 		
