@@ -65,7 +65,7 @@ int main(){
 
 		vA = pi*r*r*h;
 
-		printf("o volume do cilindro com altura '%f' e raio '%f' é: %f\n\n", h, r, vA); // cout << "o volume do cilindro com altura '" << h << "' e raio '" << r << "' é:" << vA << endl << endl;
+		printf("o volume do cilindro com altura '%f' e raio '%f' é: %f Litros\n\n", h, r, vA/1000); // cout << "o volume do cilindro com altura '" << h << "' e raio '" << r << "' é:" << vA << endl << endl;
 		
 		printf("\n###############################\n");
 		
