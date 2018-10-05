@@ -28,7 +28,7 @@ int main(){
 
 	printf("\n\n####### Calculo de volume cilindrico: #######\n");
 	
-	printf("valor do raio r (cm):\n"); // count << "valor do raio r (cm):" << endl;
+	printf("valor do raio r (cm):\n"); // cout << "valor do raio r (cm):" << endl;
 	scanf("%f",&r);
 	
 	while(r<0)
@@ -37,7 +37,7 @@ int main(){
 		scanf("%f",&r);
 	}
 
-	printf("valor da altura h (cm):\n"); // count << "valor da altura h (cm):" << endl;
+	printf("valor da altura h (cm):\n"); // cout << "valor da altura h (cm):" << endl;
 	scanf("%f",&h); // cin >> h;
 
 	while(h<0)
@@ -49,7 +49,7 @@ int main(){
 	while(r>0 && h>0){
 		vA = pi*r*r*h;
 
-		printf("o volume do cilindro com altura '%f' e raio '%f' é: %f Litros\n\n", h, r, vA/1000); // count << "o volume do cilindro com altura '" << h << "' e raio '" << r << "' é:" << vA << endl << endl;
+		printf("o volume do cilindro com altura '%f' e raio '%f' é: %f Litros\n\n", h, r, vA/1000); // cout << "o volume do cilindro com altura '" << h << "' e raio '" << r << "' é:" << vA << endl << endl;
 		
 		printf("\n###############################\n");
 
