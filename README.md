@@ -8,3 +8,5 @@ Prática 03 - Volume cubico e cônico.
 Prática 04 - Páscoa.
 
 Prática 05 - Volume cilíndrico.
+
+Prática 06 - Tabuada, Desenho de quadrado.

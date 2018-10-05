@@ -1,7 +1,7 @@
 /**
  *
  * -------------------------------------------------------
- * Project: SolucaoPratica05B
+ * Project: SolucaoPratica05b
 
  * Version: 0.1.0
  * Author:  Pedro Mello
